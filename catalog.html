@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аренда спецтехники в Самаре — ТралСамара</title>
+    <meta name="description" content="Аренда экскаваторов, бульдозеров, самосвалов, автокранов, тралов и погрузчиков в Самаре. Собственный парк 150+ единиц техники. Доставка в день заказа.">
+    <meta name="keywords" content="аренда экскаватора, аренда бульдозера, аренда самосвала, аренда автокрана, аренда трала, спецтехника Самара">
+    <link rel="canonical" href="https://sasha131080-cloud.github.io/tralsamara/catalog.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header" id="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__contacts">
+                    <a href="tel:+7846XXX-XX-XX" class="header__phone"><i class="fas fa-phone-alt"></i> +7 (846) XXX-XX-XX</a>
+                    <a href="mailto:info@tralsamara.ru" class="header__email"><i class="fas fa-envelope"></i> info@tralsamara.ru</a>
+                    <span class="header__hours"><i class="fas fa-clock"></i> Ежедневно 8:00–20:00</span>
+                </div>
+            </div>
+        </div>
+        <div class="header__main">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="/" class="logo">
+                        <span class="logo__icon"><i class="fas fa-truck"></i></span>
+                        <span class="logo__text">
+                            <span class="logo__name">ТралСамара</span>
+                            <span class="logo__desc">Аренда спецтехники</span>
+                        </span>
+                    </a>
+                    <nav class="nav" id="nav">
+                        <ul class="nav__list">
+                            <li><a href="/" class="nav__link">Главная</a></li>
+                            <li><a href="catalog.html" class="nav__link nav__link--active">Аренда техники</a></li>
+                            <li><a href="services.html" class="nav__link">Услуги</a></li>
+                            <li><a href="/#about" class="nav__link">О компании</a></li>
+                            <li><a href="/#contacts" class="nav__link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__actions">
+                        <a href="#order" class="btn btn--accent btn--sm header__cta">Заказать звонок</a>
+                        <button class="burger" id="burger" aria-label="Меню">
+                            <span></span><span></span><span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero каталога -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-hero__title">Аренда спецтехники</h1>
+            <p class="page-hero__desc">Собственный парк более 150 единиц техники. Доставка в день заказа. Работаем по Самаре и Самарской области.</p>
+        </div>
+    </section>
+
+    <!-- Каталог -->
+    <section class="section catalog-page">
+        <div class="container">
+            <!-- Фильтр -->
+            <div class="catalog-filter" id="catalogFilter">
+                <button class="catalog-filter__btn catalog-filter__btn--active" data-filter="all">Вся техника</button>
+                <button class="catalog-filter__btn" data-filter="excavator">Экскаваторы</button>
+                <button class="catalog-filter__btn" data-filter="bulldozer">Бульдозеры</button>
+                <button class="catalog-filter__btn" data-filter="dumper">Самосвалы</button>
+                <button class="catalog-filter__btn" data-filter="crane">Автокраны</button>
+                <button class="catalog-filter__btn" data-filter="trawl">Тралы</button>
+                <button class="catalog-filter__btn" data-filter="loader">Погрузчики</button>
+            </div>
+
+            <div class="catalog-grid" id="catalogGrid">
+                <!-- Экскаваторы -->
+                <div class="product-card" data-category="excavator">
+                    <div class="product-card__badge">Хит</div>
+                    <div class="product-card__icon"><i class="fas fa-digging"></i></div>
+                    <h3 class="product-card__title">Экскаватор гусеничный Hitachi ZX200</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Масса:</strong> 20,5 т</li>
+                        <li><strong>Объём ковша:</strong> 0,8 м³</li>
+                        <li><strong>Двигатель:</strong> 168 л.с.</li>
+                        <li><strong>Глубина копания:</strong> 6,7 м</li>
+                    </ul>
+                    <div class="product-card__price">от 2 500 ₽ / смена</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+                <div class="product-card" data-category="excavator">
+                    <div class="product-card__icon"><i class="fas fa-digging"></i></div>
+                    <h3 class="product-card__title">Экскаватор колёсный JCB JS200W</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Масса:</strong> 18,8 т</li>
+                        <li><strong>Объём ковша:</strong> 0,65 м³</li>
+                        <li><strong>Двигатель:</strong> 145 л.с.</li>
+                        <li><strong>Глубина копания:</strong> 6,1 м</li>
+                    </ul>
+                    <div class="product-card__price">от 2 200 ₽ / смена</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+                <div class="product-card" data-category="excavator">
+                    <div class="product-card__badge">Новинка</div>
+                    <div class="product-card__icon"><i class="fas fa-digging"></i></div>
+                    <h3 class="product-card__title">Экскаватор-погрузчик JCB 4CX</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Масса:</strong> 9,5 т</li>
+                        <li><strong>Объём ковша:</strong> 1,0 м³</li>
+                        <li><strong>Двигатель:</strong> 106 л.с.</li>
+                        <li><strong>Глубина копания:</strong> 5,9 м</li>
+                    </ul>
+                    <div class="product-card__price">от 1 800 ₽ / смена</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+
+                <!-- Бульдозеры -->
+                <div class="product-card" data-category="bulldozer">
+                    <div class="product-card__icon"><i class="fas fa-tractor"></i></div>
+                    <h3 class="product-card__title">Бульдозер Caterpillar D6R</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Масса:</strong> 20,3 т</li>
+                        <li><strong>Отвал:</strong> 4,3 м</li>
+                        <li><strong>Двигатель:</strong> 230 л.с.</li>
+                        <li><strong>Тип:</strong> Гусеничный</li>
+                    </ul>
+                    <div class="product-card__price">от 3 500 ₽ / смена</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+                <div class="product-card" data-category="bulldozer">
+                    <div class="product-card__icon"><i class="fas fa-tractor"></i></div>
+                    <h3 class="product-card__title">Бульдозер ЧТЗ Б10М</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Масса:</strong> 16,5 т</li>
+                        <li><strong>Отвал:</strong> 3,3 м</li>
+                        <li><strong>Двигатель:</strong> 180 л.с.</li>
+                        <li><strong>Тип:</strong> Гусеничный</li>
+                    </ul>
+                    <div class="product-card__price">от 2 800 ₽ / смена</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+
+                <!-- Самосвалы -->
+                <div class="product-card" data-category="dumper">
+                    <div class="product-card__icon"><i class="fas fa-dump-truck"></i></div>
+                    <h3 class="product-card__title">Самосвал КамАЗ-65115</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Грузоподъёмность:</strong> 15 т</li>
+                        <li><strong>Объём кузова:</strong> 10 м³</li>
+                        <li><strong>Колёсная формула:</strong> 6×4</li>
+                        <li><strong>Тент:</strong> Опционально</li>
+                    </ul>
+                    <div class="product-card__price">от 2 000 ₽ / смена</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+                <div class="product-card" data-category="dumper">
+                    <div class="product-card__badge">Хит</div>
+                    <div class="product-card__icon"><i class="fas fa-dump-truck"></i></div>
+                    <h3 class="product-card__title">Самосвал HOWO 40 т</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Грузоподъёмность:</strong> 40 т</li>
+                        <li><strong>Объём кузова:</strong> 25 м³</li>
+                        <li><strong>Колёсная формула:</strong> 8×4</li>
+                        <li><strong>Тент:</strong> В комплекте</li>
+                    </ul>
+                    <div class="product-card__price">от 4 500 ₽ / смена</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+
+                <!-- Автокраны -->
+                <div class="product-card" data-category="crane">
+                    <div class="product-card__icon"><i class="fas fa-truck-pickup"></i></div>
+                    <h3 class="product-card__title">Автокран КС-55713 (25 т)</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Грузоподъёмность:</strong> 25 т</li>
+                        <li><strong>Длина стрелы:</strong> 28 м</li>
+                        <li><strong>Шасси:</strong> КамАЗ-6560</li>
+                        <li><strong>Люлька:</strong> Опционально</li>
+                    </ul>
+                    <div class="product-card__price">от 3 000 ₽ / смена</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+                <div class="product-card" data-category="crane">
+                    <div class="product-card__icon"><i class="fas fa-truck-pickup"></i></div>
+                    <h3 class="product-card__title">Автокран Liebherr LTM 1055</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Грузоподъёмность:</strong> 55 т</li>
+                        <li><strong>Длина стрелы:</strong> 42 м</li>
+                        <li><strong>Шасси:</strong> 4-осное</li>
+                        <li><strong>Люлька:</strong> В комплекте</li>
+                    </ul>
+                    <div class="product-card__price">от 7 500 ₽ / смена</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+
+                <!-- Тралы -->
+                <div class="product-card" data-category="trawl">
+                    <div class="product-card__icon"><i class="fas fa-trailer"></i></div>
+                    <h3 class="product-card__title">Трал низкорамный 40 т</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Грузоподъёмность:</strong> 40 т</li>
+                        <li><strong>Длина платформы:</strong> 12 м</li>
+                        <li><strong>Тип:</strong> Низкорамный</li>
+                        <li><strong>Сопровождение:</strong> По запросу</li>
+                    </ul>
+                    <div class="product-card__price">от 5 000 ₽ / рейс</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+                <div class="product-card" data-category="trawl">
+                    <div class="product-card__icon"><i class="fas fa-trailer"></i></div>
+                    <h3 class="product-card__title">Трал 60 т с аппарелями</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Грузоподъёмность:</strong> 60 т</li>
+                        <li><strong>Длина платформы:</strong> 13,6 м</li>
+                        <li><strong>Тип:</strong> С аппарелями</li>
+                        <li><strong>Сопровождение:</strong> Включено</li>
+                    </ul>
+                    <div class="product-card__price">от 7 000 ₽ / рейс</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+
+                <!-- Погрузчики -->
+                <div class="product-card" data-category="loader">
+                    <div class="product-card__icon"><i class="fas fa-forklift"></i></div>
+                    <h3 class="product-card__title">Погрузчик фронтальный XCMG ZL50</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Грузоподъёмность:</strong> 5 т</li>
+                        <li><strong>Объём ковша:</strong> 3,0 м³</li>
+                        <li><strong>Двигатель:</strong> 162 л.с.</li>
+                        <li><strong>Привод:</strong> Полный</li>
+                    </ul>
+                    <div class="product-card__price">от 2 500 ₽ / смена</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+                <div class="product-card" data-category="loader">
+                    <div class="product-card__icon"><i class="fas fa-forklift"></i></div>
+                    <h3 class="product-card__title">Телескопический погрузчик Manitou</h3>
+                    <ul class="product-card__specs">
+                        <li><strong>Грузоподъёмность:</strong> 4 т</li>
+                        <li><strong>Высота подъёма:</strong> 14 м</li>
+                        <li><strong>Двигатель:</strong> 102 л.с.</li>
+                        <li><strong>Навеска:</strong> Ковш, вилы</li>
+                    </ul>
+                    <div class="product-card__price">от 3 500 ₽ / смена</div>
+                    <p class="product-card__note">*Цена не является публичной офертой</p>
+                    <a href="#order" class="btn btn--accent btn--sm product-card__btn">Заказать</a>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="catalog-cta">
+                <h3>Не нашли подходящую технику?</h3>
+                <p>Свяжитесь с нами — мы подберём решение под вашу задачу</p>
+                <a href="#order" class="btn btn--accent btn--lg"><i class="fas fa-phone"></i> Заказать звонок</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма заказа -->
+    <section class="section order" id="order">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">Заявка</span>
+                <h2 class="section__title">Забронировать технику</h2>
+                <p class="section__desc">Укажите, что вам нужно — мы подготовим коммерческое предложение</p>
+            </div>
+            <div class="order__card">
+                <form class="order-form" id="orderForm">
+                    <input type="hidden" name="form_type" value="order">
+                    <div class="order-form__row">
+                        <div class="order-form__group">
+                            <label for="orderName">Ваше имя <span class="required">*</span></label>
+                            <input type="text" id="orderName" name="name" placeholder="Иван Иванов" required>
+                        </div>
+                        <div class="order-form__group">
+                            <label for="orderPhone">Телефон <span class="required">*</span></label>
+                            <input type="tel" id="orderPhone" name="phone" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                    </div>
+                    <div class="order-form__row">
+                        <div class="order-form__group">
+                            <label for="orderService">Тип техники / услуга</label>
+                            <select id="orderService" name="service">
+                                <option value="Не выбрано">Выберите...</option>
+                                <option value="Экскаватор">Экскаватор</option>
+                                <option value="Бульдозер">Бульдозер</option>
+                                <option value="Самосвал">Самосвал</option>
+                                <option value="Автокран">Автокран</option>
+                                <option value="Трал">Трал</option>
+                                <option value="Погрузчик">Погрузчик</option>
+                            </select>
+                        </div>
+                        <div class="order-form__group">
+                            <label for="orderDate">Желаемая дата</label>
+                            <input type="date" id="orderDate" name="date">
+                        </div>
+                    </div>
+                    <div class="order-form__group">
+                        <label for="orderComment">Адрес объекта и описание работ</label>
+                        <textarea id="orderComment" name="comment" rows="3" placeholder="Опишите задачу, адрес, сроки..."></textarea>
+                    </div>
+                    <div class="order-form__group order-form__group--checkbox">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="consent" required>
+                            <span>Я согласен на <a href="privacy.html" target="_blank">обработку персональных данных</a> <span class="required">*</span></span>
+                        </label>
+                    </div>
+                    <div class="order-form__actions">
+                        <button type="submit" class="btn btn--accent btn--lg"><i class="fas fa-paper-plane"></i> Отправить заявку</button>
+                    </div>
+                    <p class="order-form__policy">Цены указаны как ориентировочные и не являются публичной офертой (ст. 437 ГК РФ). Точную стоимость уточняйте у менеджера.</p>
+                </form>
+                <div class="order__success" id="orderSuccess" style="display:none;">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Заявка принята!</h3>
+                    <p>Мы свяжемся с вами в ближайшее время.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="section contacts" id="contacts">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">Контакты</span>
+                <h2 class="section__title">Как нас найти</h2>
+            </div>
+            <div class="contacts__grid">
+                <div class="contacts__info">
+                    <div class="contacts__item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div><h4>Адрес</h4><p>г. Самара, ул. Промышленная, 15</p></div>
+                    </div>
+                    <div class="contacts__item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div><h4>Телефон</h4><a href="tel:+7846XXX-XX-XX">+7 (846) XXX-XX-XX</a></div>
+                    </div>
+                    <div class="contacts__item">
+                        <i class="fas fa-envelope"></i>
+                        <div><h4>Email</h4><a href="mailto:info@tralsamara.ru">info@tralsamara.ru</a></div>
+                    </div>
+                    <div class="contacts__social">
+                        <h4>Мы в соцсетях</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__map">
+                    <div class="contacts__map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Самара, ул. Промышленная, 15</p>
+                        <a href="https://yandex.ru/maps/?text=Самара+Промышленная+15" target="_blank" class="btn btn--outline btn--sm">Открыть в Яндекс.Картах</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <div class="logo">
+                        <span class="logo__icon"><i class="fas fa-truck"></i></span>
+                        <span class="logo__text">
+                            <span class="logo__name">ТралСамара</span>
+                            <span class="logo__desc">Аренда спецтехники</span>
+                        </span>
+                    </div>
+                    <p class="footer__desc">Надёжный поставщик спецтехники и услуг в Самаре с 2010 года.</p>
+                </div>
+                <div class="footer__col">
+                    <h4>Навигация</h4>
+                    <ul class="footer__links">
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="catalog.html">Аренда техники</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="privacy.html">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-phone-alt"></i> <a href="tel:+7846XXX-XX-XX">+7 (846) XXX-XX-XX</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@tralsamara.ru">info@tralsamara.ru</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Самара, ул. Промышленная, 15</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 ТралСамара. Все права защищены.</p>
+                <p class="footer__dev">Демо-сайт. Информация носит ознакомительный характер и не является публичной офертой.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
