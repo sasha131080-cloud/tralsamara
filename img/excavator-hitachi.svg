@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a3a5c"/>
+      <stop offset="100%" stop-color="#2d6a9f"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#sh)"/>
+  <text x="400" y="300" font-family="Arial,sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">Hitachi ZX200</text>
+  <text x="400" y="350" font-family="Arial,sans-serif" font-size="20" fill="rgba(255,255,255,0.7)" text-anchor="middle" dominant-baseline="middle">Гусеничный экскаватор</text>
+  <rect x="200" y="400" width="400" height="2" rx="1" fill="rgba(255,255,255,0.2)"/>
+  <text x="400" y="430" font-family="Arial,sans-serif" font-size="13" fill="rgba(255,255,255,0.35)" text-anchor="middle" dominant-baseline="middle">ТралСамара — Спецтехника в аренду</text>
+</svg>
